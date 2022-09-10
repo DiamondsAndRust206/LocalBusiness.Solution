@@ -46,7 +46,7 @@ It is a web API designed with a purpose of enabling local community to add local
   * `dotnet add package Pomelo.EntityFrameworkCore.MySql -v 5.0.0-alpha.2`
   * `dotnet add package Microsoft.EntityFrameworkCore.Proxies -v 5.0.0`
   * `dotnet add package Microsoft.AspNetCore.Identity.EntityFrameworkCore -v 5.0.0`
-  * Then do the following accordingly in your terminal to update and connect your project to your local database :
+* Then do the following accordingly in your terminal to update and connect your project to your local database :
   * `dotnet restore`
   * `dotnet build`
   * `dotnet ef migrations add Initial`
