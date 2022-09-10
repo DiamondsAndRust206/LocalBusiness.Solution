@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace LocalBusinessApi.Controllers
 {
-  
+  [Produces("application/json")]
   [Route("api/[controller]")]
   [ApiController]
   public class LocalBusinessesController :ControllerBase
